@@ -1,3 +1,5 @@
+url = document.getElementById("url").value;
+
 function sendMessage(message) {
     const request = new XMLHttpRequest();
     request.open("POST", "https://discord.com/api/webhooks/1078419441005641729/XwlqbpqWprCaHGSCNi-T7KzpoXUTJdRngtOUB3qdiCumASO1sJd4aLqw0dwpQUtu2iYA");
